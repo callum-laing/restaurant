@@ -12,7 +12,7 @@
 #content {
     width: 100vw;
     height: 100vh;
-    background: url("img/cookies.jpg");
+    background: url("img/pastry.jpg");
     background-size: 100% 150%;
     background-repeat: no-repeat;
     display: flex;
@@ -31,6 +31,8 @@ a {
 
 a:hover {
     text-decoration: underline #fcb103;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
 }
 
 .footer,
@@ -48,7 +50,6 @@ a:hover {
 /* Homepage */
 .main-page {
     height: 700px;
-    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .intro-color {
@@ -64,6 +65,7 @@ a:hover {
     color: white;
     font-size: 0.95rem;
     margin-bottom: -20px;
+
 }
 
 hr {
