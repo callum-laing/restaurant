@@ -1,6 +1,6 @@
 function homePage() {
   const wrapper = document.createElement("div");
-  wrapper.classList.add("main-container");
+  wrapper.classList.add("main-page");
 
   return wrapper;
 }

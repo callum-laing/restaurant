@@ -3,7 +3,7 @@ function headerFunc() {
   header.classList.add("headerDiv");
 
   const navbar = document.createElement("nav");
-  navbar.classList.add("navbar");
+  navbar.classList.add("nav-bar");
   header.appendChild(navbar);
 
   return;
