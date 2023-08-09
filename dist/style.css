@@ -11,7 +11,41 @@
 }
 
 body {
-    min-height: 100vh;
     background-color: #d1edff;
     font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+#content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.footer,
+.main-page,
+.header {
+    border: 2px solid black;
+    width: 100%;
+}
+
+.header {
+    height: 50px;
+}
+
+.main-page {
+    height: 700px;
+}
+
+.footer {
+    height: 200px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
