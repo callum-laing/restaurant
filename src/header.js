@@ -1,3 +1,5 @@
+//This is to include the navbar.
+
 function headerFunc() {
   const header = document.createElement("div");
   header.classList.add("headerDiv");
