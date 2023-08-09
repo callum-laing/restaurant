@@ -1,27 +1,27 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
+@import url("https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Montserrat:wght@300;400;700&display=swap");
 
 * {
     margin: 0;
     padding: 0;
-    font: inherit;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
 }
 
-body {
-    background-color: #d1edff;
-    font-family: 'Roboto', sans-serif;
-    overflow: hidden;
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
 }
 
 #content {
+    width: 100vw;
+    height: 100vh;
+    background: url("img/restaurant-front.jpg");
+    background-size: cover;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    min-height: 100vh;
+    justify-content: space-between;
 }
 
 .footer,
