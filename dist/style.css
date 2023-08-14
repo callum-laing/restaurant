@@ -104,6 +104,15 @@ h3 {
     background-color: #fcb103;
 }
 
+.menu-title {
+    display: grid;
+    grid-area: menu;
+    align-content: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin-bottom: -10px;
+}
+
 h3 {
     font-size: 1.2rem;
 }
@@ -116,14 +125,6 @@ td {
     padding: 3px;
 }
 
-.menu-title {
-    display: grid;
-    grid-area: menu;
-    align-content: center;
-    justify-content: center;
-    font-size: 2rem;
-    margin-bottom: -10px;
-}
 
 .pastry-menu {
     grid-area: pastry;
@@ -140,6 +141,55 @@ td {
 .drink-menu {
     grid-area: drink;
 }
+
+/* contact.js */
+.contactWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactContent {
+    display: grid;
+    grid-template-areas:
+        "menu menu"
+        "contact location"
+        "contact location";
+    border: 2px solid black;
+    height: 75vh;
+    width: 50%;
+    background-color: #fcb103;
+}
+
+.contact-title {
+    display: grid;
+    grid-area: menu;
+    align-content: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin-bottom: -10px;
+}
+
+.contact-links {
+    grid-area: contact;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+
+.contact-link-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.location {
+    grid-area: location;
+}
+
+.location-img {
+    height: auto;
+    width: 300px;
+}
+
 
 /* footer.js */
 .footer {
