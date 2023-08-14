@@ -10,9 +10,9 @@ function headerFunc() {
 
   navbar.innerHTML = ` <nav class="navbar">
         <div class="main-nav">
-          <a href="#home" class="home-nav">Home</a>
-          <a href="#menu" class="menu-nav">Menu</a>
-          <a href="#contact" class="contact-nav">Contact</a>
+          <a href="#" id="homeLink">Home</a>
+          <a href="#" id="menuLink">Menu</a>
+          <a href="#" id="contactLink">Contact</a>
         </div>`;
   return header;
 }

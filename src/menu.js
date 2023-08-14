@@ -7,7 +7,7 @@ function menuPage() {
   menuContent.innerHTML = `<h2 class="menu-title">Menu</h2>
     <div class="pastry-menu">
       <table>
-        <h3>Pastry</h3>
+        <h3 class="menu-subtitle">Pastry</h3>
         <tr>
           <th>Name</th>
           <th>Price</th>
@@ -37,7 +37,7 @@ function menuPage() {
 
     <div class="cupcake-menu">
       <table>
-        <h3>Cupcakes
+        <h3 class="menu-subtitle">Cupcakes</h3>
           <tr>
             <th>Name</th>
             <th>Price</th>
@@ -67,7 +67,7 @@ function menuPage() {
 
     <div class="cookie-menu">
       <table>
-        <h3>Cookies</h3>
+        <h3 class="menu-subtitle">Cookies</h3>
         <tr>
           <th>Name</th>
           <th>Price</th>
@@ -97,7 +97,7 @@ function menuPage() {
 
     <dv class="drink-menu">
       <table>
-        <h3>Drinks</h3>
+        <h3 class="menu-subtitle">Drinks</h3>
         <tr>
           <th>Name</th>
           <th>Price</th>

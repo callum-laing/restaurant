@@ -1,6 +1,6 @@
 function contactPage() {
   const contactWrapper = document.createElement("div");
-  wrapper.classList.add("contact-wrapper");
+  contactWrapper.classList.add("contact-wrapper");
 
   const contactContent = document.createElement("div");
   contactContent.classList.add("contactContent");

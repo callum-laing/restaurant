@@ -1,7 +1,7 @@
 //Main homepage to include the initial page load/home link.
 //Include: Title, Intro text, images
 
-function homePage() {
+function homeFunc() {
   const wrapper = document.createElement("div");
   wrapper.classList.add("main-page");
 
@@ -13,4 +13,4 @@ function homePage() {
   return wrapper;
 }
 
-export default homePage();
+export default homeFunc();
