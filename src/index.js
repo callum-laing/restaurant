@@ -23,14 +23,12 @@ function loadInitialContent(content) {
   const container = document.querySelector("#content");
   clearContent();
   container.appendChild(headerFunc);
-  container.appendChild(homeFunc);
+  container.appendChild(content);
   container.appendChild(footerFunc);
 }
 
 document.addEventListener("DOMContentLoaded", () => {
   loadInitialContent(homeFunc);
-
-  console.log(homeFunc);
 
   const homeLink = document.querySelector("#homeLink");
   homeLink.addEventListener("click", () => {
