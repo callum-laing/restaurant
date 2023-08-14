@@ -94,8 +94,8 @@ hr {
         "menu menu"
         "pastry cupcake"
         "cookie drink";
-    width: 800px;
-    height: 75vh;
+    width: 700px;
+    height: 65vh;
     border: 2px solid black;
     padding: 20px;
     align-content: center;
@@ -117,6 +117,7 @@ hr {
 
 .menu-subtitle {
     font-size: 1.2rem;
+    text-align: left;
 }
 
 th {
@@ -159,8 +160,8 @@ td {
         "contact location"
         "contact location";
     border: 2px solid black;
-    height: 75vh;
-    width: 800px;
+    height: 65vh;
+    width: 700px;
     background-color: #fcb103;
     box-shadow: 1px 1px 2px;
 }

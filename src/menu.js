@@ -8,6 +8,7 @@ function menuPage() {
     <div class="pastry-menu">
       <table>
         <h3 class="menu-subtitle">Pastry</h3>
+        <br>
         <tr>
           <th>Name</th>
           <th>Price</th>
@@ -38,6 +39,7 @@ function menuPage() {
     <div class="cupcake-menu">
       <table>
         <h3 class="menu-subtitle">Cupcakes</h3>
+        <br>
           <tr>
             <th>Name</th>
             <th>Price</th>
@@ -68,6 +70,7 @@ function menuPage() {
     <div class="cookie-menu">
       <table>
         <h3 class="menu-subtitle">Cookies</h3>
+        <br>
         <tr>
           <th>Name</th>
           <th>Price</th>
@@ -98,6 +101,7 @@ function menuPage() {
     <dv class="drink-menu">
       <table>
         <h3 class="menu-subtitle">Drinks</h3>
+        <br>
         <tr>
           <th>Name</th>
           <th>Price</th>
