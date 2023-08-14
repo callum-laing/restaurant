@@ -102,6 +102,7 @@ h3 {
     column-gap: 150px;
     row-gap: 50px;
     background-color: #fcb103;
+    box-shadow: 1px 1px 2px;
 }
 
 .menu-title {
@@ -159,6 +160,7 @@ td {
     height: 75vh;
     width: 50%;
     background-color: #fcb103;
+    box-shadow: 1px 1px 2px;
 }
 
 .contact-title {
